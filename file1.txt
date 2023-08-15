@@ -1,0 +1,1 @@
+salam file1.txt
