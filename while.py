@@ -1,3 +1,6 @@
+#Iteration
+#يعني يه کاري را تا يه زماني انجام بده
+#----------------------------------------------
 #while
 
 #while expression:
@@ -8,6 +11,7 @@
 #statement
 
 
+#example1
 chocolate=5
 total_chocolate=chocolate
 
@@ -19,7 +23,8 @@ print("I ate all of them")
 
 
 
-#the suare root
+#example2
+#the sqare root
 number=float(input("give me the number"))
 guess=number/2
 error=0.01
@@ -30,3 +35,23 @@ while(abs(number -guess**2)>error):
      guess=(taghsim+guess)/2
 
 print("the square of",number,"is", guess, "iteration", iteration)
+
+
+#example3
+name=input("give me yor name ")
+while name!='zohreh':
+      print("your name in not zohreh")
+      name=input("give me yor name ")
+
+print("congradulation")
+
+
+#example4
+n=3
+while(n>=0):
+   print(n)
+   n+=1
+   if n==100:
+      print("you reached 100")
+      break
+      
