@@ -1,27 +1,4 @@
-#List
-
-
-my_list=['h',7,6]
-
-#avali
-my_list[0]
-print(my_list)
-print(my_list[0])
-
-my_list[0]=12
-print(my_list[0])
-
-#akhari
-print(my_list[-1])
-
-print(my_list[-2])
-
-print(type(my_list))
-
-
-
-
-#Method of Lists------------------------------------------------
+#method------------------------------------------------
 #فانکشنهايي که روي آبجکتها تعريف مي شوند
 
 #object --> dog
@@ -109,3 +86,12 @@ print(my_list)
 
 my_list[3:]
 print(my_list)
+
+
+
+
+
+
+
+
+

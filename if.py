@@ -25,4 +25,12 @@ else:
 print(pizza_area)
 
 
+#
+x=int(input( "give me the number"))
+if x%2==0:
+   print ("this number is even")
+else:
+   print("this number is odd")
+
+
 

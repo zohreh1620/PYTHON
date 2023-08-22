@@ -15,4 +15,4 @@ c='hello'
 print (type(c))
 
 d=True
-print (type(d))
+print (type(d)) --> bool
