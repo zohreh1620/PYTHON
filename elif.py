@@ -20,5 +20,15 @@ else:
    print("na 2 na 3")
 
 
+number=int(input("number2 is: "))
+if x%2!=0:
+    pass
+else:
+    print(number)
+    
+
+   
+
+
    
    

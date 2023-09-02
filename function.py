@@ -50,6 +50,29 @@ adade_aval=5
 adade_dovom=8
 jam=sum(adade_aval,adade_dovom)
 print(jam)
+#-------------------------------------------
+def squares(*args):
+    squared_args=[]
+    for item in args:
+        squared_args.append(item*item)
+    return squared_args
+
+
+print(squares(1,2,3,5))
+#---------------------------------------------
+#keyword arguments
+def person_details(**kwargs):
+    for key, value in kwargs.items():
+        print(key, '->', value)
+print(person_details(name='a', alias='d', job='ff'))
+#-----------------------------------------------------------
+#توابع بازگشتي
+#-----------------------------------------------------------
+#توابع پنهان
+lambda_square= lambda n: n*n
+
+print(lambda_square(4))
+
 
 
 

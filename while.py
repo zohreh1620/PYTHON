@@ -54,4 +54,28 @@ while(n>=0):
    if n==100:
       print("you reached 100")
       break
+
+#\Pass-------------------------------------------------
+#Example5
+   number=10
+   while number>0:
+      if number%2!=0:
+         pass
+      else:
+         print(number)
+      number-=1
+
+
+#Continue-----------------------------------------------
+#Example6
+   number=10
+   while number>0:
+      if number%2!=0:
+         number-=1
+         continue  # برگشت به حلقه ي اول براي تکرار
+         print(number)
+      number-=1
+      
+
+   
       
